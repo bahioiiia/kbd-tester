@@ -5,23 +5,28 @@ import Keyboard from './Keyboard';
 function App() {
   const [keysPressed, setKeysPressed] = useState([]);
   const [workingKeys, setWorkingKeys] = useState([]);
+  const [pressedKeys, setPressedKeys] = useState([]);
 
   const handleKeyDown = (event) => {
     event.preventDefault(); // Заблокувати дію клавіш за замовченням
     const key = event.code; // Використовуємо event.code для забезпечення незалежності від розкладки
+    console.log(key);
     if (!keysPressed.includes(key)) {
       setKeysPressed((prevKeys) => [...prevKeys, key]);
       setWorkingKeys((prevKeys) => [...prevKeys, key]);
+      setPressedKeys((prevKeys) => [...prevKeys, key]);
     }
   };
 
   const handleKeyUp = (event) => {
-    // Логіка для обробки відпускання клавіш (якщо необхідно)
+    const key = event.code;
+    setPressedKeys((prevKeys) => prevKeys.filter((k) => k !== key));
   };
 
   const resetTest = () => {
     setKeysPressed([]);
     setWorkingKeys([]);
+    setPressedKeys([]);
   };
 
   useEffect(() => {
@@ -36,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <h1>Keyboard Tester</h1>
-      <Keyboard keysPressed={keysPressed} workingKeys={workingKeys} />
+      <Keyboard keysPressed={keysPressed} workingKeys={workingKeys} pressedKeys={pressedKeys} />
       <button onClick={resetTest}>Reset Test</button>
     </div>
   );
