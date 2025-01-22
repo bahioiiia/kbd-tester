@@ -1,0 +1,49 @@
+{
+  "keys": [
+    {
+      "code": "Escape",
+      "type": "special",
+      "labels": {
+        "tl": "Esc"
+      }
+    },
+    {
+      "code": "F1",
+      "type": "special",
+      "labels": {
+        "tl": "F1"
+      }
+    },
+    {
+      "code": "Digit1",
+      "type": "symbol",
+      "labels": {
+        "tl": "1",
+        "bl": "!"
+      }
+    },
+    {
+      "code": "KeyQ",
+      "type": "symbol",
+      "labels": { "tl": "Q", "br": "Й"}
+    },
+    {
+      "code": "Slash",
+      "type": "symbol",
+      "labels": { "tl": "?", "bl": "/", "tr": ",", "br": "."}
+    },
+    {
+      "code": "Numpad1",
+      "type": "special",
+      "labels": { "tl": "1", "bl": "End" }
+    },
+        {
+      "code": "Numpad0",
+      "type": "special",
+      "labels": {
+        "tl": "0",
+        "bl": "Ins"
+      }
+    }
+  ]
+}
