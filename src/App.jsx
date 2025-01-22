@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+//import './App.css';
 import Keyboard from './Keyboard';
 
 function App() {
@@ -10,7 +10,6 @@ function App() {
   const handleKeyDown = (event) => {
     event.preventDefault(); // Заблокувати дію клавіш за замовченням
     const key = event.code; // Використовуємо event.code для забезпечення незалежності від розкладки
-    console.log(key);
     if (!keysPressed.includes(key)) {
       setKeysPressed((prevKeys) => [...prevKeys, key]);
       setWorkingKeys((prevKeys) => [...prevKeys, key]);

@@ -4,7 +4,7 @@ import KeyboardRow from './KeyboardRow';
 
 function KeyboardBlock({ blockKeys, keysPressed, workingKeys, pressedKeys }) {
   return (
-    <div className={styles.keyboardBlock}>
+    <div /* className={styles.keyboardBlock} */>
       {blockKeys.map((rowKeys, index) => (
         <KeyboardRow
           key={index}
