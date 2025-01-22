@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+.key-display {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.key {
+  background: #61dafb;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
