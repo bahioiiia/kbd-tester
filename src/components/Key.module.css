@@ -39,24 +39,24 @@
 }
 
 .tab,
-.backspace,
-.controlleft,
-.controlright
+.backspace
 {
-    width: 55px;
+    width: 54px;
 }
 
+.controlleft,
+.controlright,
 .altleft,
 .altright,
 .metaleft,
 .metaright,
 .contextmenu
 {
-    width: 50px;
+    width: 51px;
 }
 
 .space {
-    width: 263px;
+    width: 268px;/* 263px; */
 }
 
 .capslock {
@@ -72,13 +72,13 @@
 }
 
 .numpad0 {
-    width: 88px;
+    width: 89px;
 }
 
 .numpadadd,
 .numpadenter
 {
-    height: 88px;
+    height: 89px;
 }
 
 .escape,
