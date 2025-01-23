@@ -1,19 +1,17 @@
 .keyboard {
     display: flex;
     flex-direction: row;
-    gap: 3px;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .keyboardBlock {   
     display: flex;
     flex-direction: column;
     justify-content: end;
-
     gap: 3px;
-    padding: 3px;
-
-    border: 2px solid black;
-    border-radius: 5px;
 }
 
 .keyboardBlock:nth-child(2) {
@@ -23,6 +21,6 @@
 .keyboardRow {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap; 
     gap: 3px;
 }

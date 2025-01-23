@@ -613,72 +613,58 @@
           "labels": {
             "tl": "*"
           }
+        }
+      ],
+      [
+        {
+          "code": "Numpad7",
+          "type": "special",
+          "labels": {
+            "tl": "7",
+            "bl": "Home"
+          }
         },
         {
-          "code": "NumpadSubtract",
-          "type": "symbol",
+          "code": "Numpad8",
+          "type": "special",
           "labels": {
-            "tl": "-"
+            "tl": "8",
+            "bl": "↑"
+          }
+        },
+        {
+          "code": "Numpad9",
+          "type": "special",
+          "labels": {
+            "tl": "9",
+            "bl": "PgUp"
           }
         }
       ],
       [
-      {
-        "code": "Numpad7",
-        "type": "special",
-        "labels": {
-          "tl": "7",
-          "bl": "Home"
+        {
+          "code": "Numpad4",
+          "type": "special",
+          "labels": {
+            "tl": "4",
+            "bl": "←"
+          }
+        },
+        {
+          "code": "Numpad5",
+          "type": "special",
+          "labels": {
+            "tl": "5"
+          }
+        },
+        {
+          "code": "Numpad6",
+          "type": "special",
+          "labels": {
+            "tl": "6",
+            "bl": "→"
+          }
         }
-      },
-      {
-        "code": "Numpad8",
-        "type": "special",
-        "labels": {
-          "tl": "8",
-          "bl": "↑"
-        }
-      },
-      {
-        "code": "Numpad9",
-        "type": "special",
-        "labels": {
-          "tl": "9",
-          "bl": "PgUp"
-        }
-      },
-      {
-        "code": "NumpadAdd",
-        "type": "symbol",
-        "labels": {
-          "tl": "+"
-        }
-      }
-      ],
-      [
-      {
-        "code": "Numpad4",
-        "type": "special",
-        "labels": {
-          "tl": "4",
-          "bl": "←"
-        }
-      },
-      {
-        "code": "Numpad5",
-        "type": "special",
-        "labels": {
-          "tl": "5"
-        }
-      },
-      {
-        "code": "Numpad6",
-        "type": "special",
-        "labels": {
-          "tl": "6",
-          "bl": "→"
-        }
-      }
       ],
       [
         {
@@ -704,7 +690,48 @@
             "tl": "3",
             "bl": "PgDn"
           }
+        }
+      ],
+      [
+        {
+          "code": "Numpad0",
+          "type": "special",
+          "labels": {
+            "tl": "0",
+            "bl": "Ins"
+          }
         },
+        {
+            "code": "NumpadDecimal",
+            "type": "special",
+            "labels": {
+              "tl": ".",
+              "bl": "Del"
+          }
+        }
+      ]
+    ],
+
+    "NumpadSubAddEnter": [
+      [
+        {
+          "code": "NumpadSubtract",
+          "type": "symbol",
+          "labels": {
+            "tl": "-"
+          }
+        }
+      ],
+      [
+        {
+          "code": "NumpadAdd",
+          "type": "symbol",
+          "labels": {
+            "tl": "+"
+          }
+        }
+      ],
+      [
         {
           "code": "NumpadEnter",
           "type": "special",
@@ -712,24 +739,6 @@
             "tl": "Enter"
           }
         }
-      ],
-      [
-      {
-      "code": "Numpad0",
-      "type": "special",
-      "labels": {
-        "tl": "0",
-        "bl": "Ins"
-        }
-      },
-      {
-        "code": "NumpadDecimal",
-        "type": "special",
-        "labels": {
-          "tl": ".",
-          "bl": "Del"
-        }
-      }
       ]
     ]
   }

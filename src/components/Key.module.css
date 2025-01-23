@@ -37,3 +37,53 @@
 .key.pressed {
     background-color: orange;
 }
+
+.tab,
+.backspace,
+.controlleft,
+.controlright
+{
+    width: 55px;
+}
+
+.altleft,
+.altright,
+.metaleft,
+.metaright,
+.contextmenu
+{
+    width: 50px;
+}
+
+.space {
+    width: 263px;
+}
+
+.capslock {
+    width: 70px;
+}
+
+.enter {
+    width: 73px;
+}
+
+.shiftright {
+    width: 103px;
+}
+
+.numpad0 {
+    width: 88px;
+}
+
+.numpadadd,
+.numpadenter
+{
+    height: 88px;
+}
+
+.escape,
+.f4,
+.f8
+{
+    margin-right: 21px;
+}
