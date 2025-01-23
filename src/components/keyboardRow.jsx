@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './keyboard.module.css';
-import Key from './key.jsx';
+import styles from './Keyboard.module.css';
+import Key from './Key.jsx';
 
 function KeyboardRow({ rowKeys, keysPressed, workingKeys, pressedKeys }) {
   return (

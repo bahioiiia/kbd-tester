@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Keyboard.module.css';
-import KeyboardRow from './KeyboardRow';
-import Key from './Key';
+import KeyboardRow from './KeyboardRow.jsx';
+import Key from './Key.jsx';
 
 function KeyboardBlock({ blockKeys, keysPressed, workingKeys, pressedKeys }) {
   return (

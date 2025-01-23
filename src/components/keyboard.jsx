@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Keyboard.module.css';
 import keysData from '../keys.json';
-import KeyboardBlock from './KeyboardBlock';
+import KeyboardBlock from './KeyboardBlock.jsx';
 
 function Keyboard({ keysPressed, workingKeys, pressedKeys }) {
   const [blocks, setBlocks] = useState({});

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './key.module.css';
+import styles from './Key.module.css';
 
 function Key({ keyObj, isActive, isWorking, isPressed }) {
   return (
