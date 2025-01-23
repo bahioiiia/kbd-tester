@@ -10,8 +10,8 @@ function Key({ keyObj, isActive, isWorking, isPressed }) {
         <>
           <div className={styles.symbolBox}>{keyObj.labels.tl || ''}</div>
           <div className={styles.symbolBox}>{keyObj.labels.bl || ''}</div>
-          <div className={styles.symbolBox} style={{ color: 'lightblue' }}>{keyObj.labels.tr || ''}</div>
-          <div className={styles.symbolBox} style={{ color: 'lightblue' }}>{keyObj.labels.br || ''}</div>
+          <div className={styles.symbolBox} style={{ color: 'deepskyblue' }}>{keyObj.labels.tr || ''}</div>
+          <div className={styles.symbolBox} style={{ color: 'deepskyblue' }}>{keyObj.labels.br || ''}</div>
         </>
       ) : (
         <>

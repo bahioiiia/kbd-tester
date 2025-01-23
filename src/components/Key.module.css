@@ -14,8 +14,10 @@
 }
 
 .symbolBox {
+    font-weight: 500;
     height: 50%;
     width: 50%;
+
 }
 
 .specialBox {
