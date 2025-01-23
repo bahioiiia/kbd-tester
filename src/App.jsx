@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Keyboard from './components/keyboard';
-import LastKeyPressed from './components/LastKeyPressed';
+import Keyboard from './components/Keyboard.jsx';
+import LastKeyPressed from './components/LastKeyPressed.jsx';
 
 function App() {
   const [keysPressed, setKeysPressed] = useState([]);
