@@ -477,6 +477,13 @@
           }
         },
         {
+          "code": "ContextMenu",
+          "type": "special",
+          "labels": {
+            "tl": "Menu"
+          }
+        },
+        {
           "code": "ControlRight",
           "type": "special",
           "labels": {
