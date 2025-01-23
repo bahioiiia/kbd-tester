@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Keyboard from './Keyboard';
+import Keyboard from './components/keyboard';
+import LastKeyPressed from './components/LastKeyPressed';
 
 function App() {
   const [keysPressed, setKeysPressed] = useState([]);
   const [workingKeys, setWorkingKeys] = useState([]);
   const [pressedKeys, setPressedKeys] = useState([]);
+  const [lastKey, setLastKey] = useState('');
 
   const handleKeyDown = (event) => {
     event.preventDefault(); // Заблокувати дію клавіш за замовченням
@@ -15,6 +17,7 @@ function App() {
       setWorkingKeys((prevKeys) => [...prevKeys, key]);
       setPressedKeys((prevKeys) => [...prevKeys, key]);
     }
+    setLastKey(key);
   };
 
   const handleKeyUp = (event) => {
@@ -26,6 +29,7 @@ function App() {
     setKeysPressed([]);
     setWorkingKeys([]);
     setPressedKeys([]);
+    setLastKey('');
   };
 
   useEffect(() => {
@@ -40,6 +44,7 @@ function App() {
   return (
     <div className="App">
       <h1>Keyboard Tester</h1>
+      <LastKeyPressed lastKey={lastKey} />
       <Keyboard keysPressed={keysPressed} workingKeys={workingKeys} pressedKeys={pressedKeys} />
       <button onClick={resetTest}>Reset Test</button>
     </div>

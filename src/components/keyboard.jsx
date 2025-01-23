@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Keyboard.module.css';
-import keysData from './keys.json';
+import keysData from '../keys.json';
 import KeyboardBlock from './KeyboardBlock';
 
 function Keyboard({ keysPressed, workingKeys, pressedKeys }) {
   const [blocks, setBlocks] = useState({});
 
-  useEffect(() => {
-    setBlocks(keysData.keys);
-  }, []);
-console.log(blocks);
+  useEffect(() => { setBlocks(keysData.keys); }, []);
+  
   return (
     <div className={styles.keyboard}>
       {Object.keys(blocks).map((blockName) => (

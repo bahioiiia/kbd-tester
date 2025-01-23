@@ -1,104 +1,100 @@
 {
   "keys": 
   {
-    "escF12": [
-      [
-      {
-        "code": "Escape",
-        "type": "special",
-        "labels": {
-          "tl": "Esc"
-        }
-      },
-      {
-        "code": "F1",
-        "type": "special",
-        "labels": {
-          "tl": "F1"
-        }
-      },
-      {
-        "code": "F2",
-        "type": "special",
-        "labels": {
-          "tl": "F2"
-        }
-      },
-      {
-        "code": "F3",
-        "type": "special",
-        "labels": {
-          "tl": "F3"
-        }
-      },
-      {
-        "code": "F4",
-        "type": "special",
-        "labels": {
-          "tl": "F4"
-        }
-      },
-      {
-        "code": "F5",
-        "type": "special",
-        "labels": {
-          "tl": "F5"
-        }
-      },
-      {
-        "code": "F6",
-        "type": "special",
-        "labels": {
-          "tl": "F6"
-        }
-      },
-      {
-        "code": "F7",
-        "type": "special",
-        "labels": {
-          "tl": "F7"
-        }
-      },
-      {
-        "code": "F8",
-        "type": "special",
-        "labels": {
-          "tl": "F8"
-        }
-      },
-      {
-        "code": "F9",
-        "type": "special",
-        "labels": {
-          "tl": "F9"
-        }
-      },
-      {
-        "code": "F10",
-        "type": "special",
-        "labels": {
-          "tl": "F10"
-        }
-      },
-      {
-        "code": "F11",
-        "type": "special",
-        "labels": {
-          "tl": "F11"
-        }
-      },
-      {
-        "code": "F12",
-        "type": "special",
-        "labels": {
-          "tl": "F12"
-        }
-      }
-      ]
-    ],
-
-    
     "main": [
+      [
+        {
+          "code": "Escape",
+          "type": "special",
+          "labels": {
+            "tl": "Esc"
+          }
+        },
+        {
+          "code": "F1",
+          "type": "special",
+          "labels": {
+            "tl": "F1"
+          }
+        },
+        {
+          "code": "F2",
+          "type": "special",
+          "labels": {
+            "tl": "F2"
+          }
+        },
+        {
+          "code": "F3",
+          "type": "special",
+          "labels": {
+            "tl": "F3"
+          }
+        },
+        {
+          "code": "F4",
+          "type": "special",
+          "labels": {
+            "tl": "F4"
+          }
+        },
+        {
+          "code": "F5",
+          "type": "special",
+          "labels": {
+            "tl": "F5"
+          }
+        },
+        {
+          "code": "F6",
+          "type": "special",
+          "labels": {
+            "tl": "F6"
+          }
+        },
+        {
+          "code": "F7",
+          "type": "special",
+          "labels": {
+            "tl": "F7"
+          }
+        },
+        {
+          "code": "F8",
+          "type": "special",
+          "labels": {
+            "tl": "F8"
+          }
+        },
+        {
+          "code": "F9",
+          "type": "special",
+          "labels": {
+            "tl": "F9"
+          }
+        },
+        {
+          "code": "F10",
+          "type": "special",
+          "labels": {
+            "tl": "F10"
+          }
+        },
+        {
+          "code": "F11",
+          "type": "special",
+          "labels": {
+            "tl": "F11"
+          }
+        },
+        {
+          "code": "F12",
+          "type": "special",
+          "labels": {
+            "tl": "F12"
+          }
+        }
+      ],
       [
         {
           "code": "Backquote",
@@ -215,11 +211,19 @@
           "code": "Backspace",
           "type": "special",
           "labels": {
-              "tl": "Backspace"
+              "tl": "Back",
+              "bl": "Space"
           }
         }
       ],
-      [        
+      [
+        {
+          "code": "Tab",
+          "type": "special",
+          "labels": {
+              "tl": "Tab"
+          }
+        },        
         {
           "code": "KeyQ",
           "type": "symbol",
@@ -285,60 +289,228 @@
           "type": "symbol",
           "labels": { "tl": "|", "bl": "\\", "tr": "/", "br": "\\"}
         }
-      ]
-    ],
-
-
-    "space": [
+      ],
       [
-      {
-        "code": "ControlLeft",
-        "type": "special",
-        "labels": {
+        {
+          "code": "CapsLock",
+          "type": "special",
+          "labels": {
+              "tl": "Caps",
+              "bl": "Lock"
+          }
+        },
+        {
+          "code": "KeyA",
+          "type": "symbol",
+          "labels": { "tl": "A", "br": "Ф"}
+        },
+        {
+          "code": "KeyS",
+          "type": "symbol",
+          "labels": { "tl": "S", "br": "І"}
+        },
+        {
+          "code": "KeyD",
+          "type": "symbol",
+          "labels": { "tl": "D", "br": "В"}
+        },
+        {
+          "code": "KeyF",
+          "type": "symbol",
+          "labels": { "tl": "F", "br": "А"}
+        },
+        {
+          "code": "KeyG",
+          "type": "symbol",
+          "labels": { "tl": "G", "br": "П"}
+        },
+        {
+          "code": "KeyH",
+          "type": "symbol",
+          "labels": { "tl": "H", "br": "Р"}
+        },
+        {
+          "code": "KeyJ",
+          "type": "symbol",
+          "labels": { "tl": "J", "br": "О"}
+        },
+        {
+          "code": "KeyK",
+          "type": "symbol",
+          "labels": { "tl": "K", "br": "Л"}
+        },
+        {
+          "code": "KeyL",
+          "type": "symbol",
+          "labels": { "tl": "L", "br": "Д"}
+        },
+        {
+          "code": "Semicolon",
+          "type": "symbol",
+          "labels": { "tl": ":", "bl": ";", "br": "Ж"}
+        },
+        {
+          "code": "Quote",
+          "type": "symbol",
+          "labels": { "tl": "\"", "bl": "'", "br": "Є"}
+        },
+        {
+          "code": "Enter",
+          "type": "special",
+          "labels": {
+              "tl": "Enter"
+          }
+        }
+      ],
+      [
+        {
+          "code": "ShiftLeft",
+          "type": "special",
+          "labels": {
+              "tl": "Shift"
+          }
+        },
+        { 
+          "code": "IntlBackslash",
+          "type": "symbol",
+          "labels": { "tl": "|", "bl": "\\", "br": "Ґ"}
+        },
+        {
+          "code": "KeyZ",
+          "type": "symbol",
+          "labels": { "tl": "Z", "br": "Я"}
+        },
+        {
+          "code": "KeyX",
+          "type": "symbol",
+          "labels": { "tl": "X", "br": "Ч"}
+        },
+        {
+          "code": "KeyC",
+          "type": "symbol",
+          "labels": { "tl": "C", "br": "С"}
+        },
+        {
+          "code": "KeyV",
+          "type": "symbol",
+          "labels": { "tl": "V", "br": "М"}
+        },
+        {
+          "code": "KeyB",
+          "type": "symbol",
+          "labels": { "tl": "B", "br": "И"}
+        },
+        {
+          "code": "KeyN",
+          "type": "symbol",
+          "labels": { "tl": "N", "br": "Т"}
+        },
+        {
+          "code": "KeyM",
+          "type": "symbol",
+          "labels": { "tl": "M", "br": "Ь"}
+        },
+        {
+          "code": "Comma",
+          "type": "symbol",
+          "labels": { "tl": "<", "bl": ",", "br": "Б"}
+        },
+        {
+          "code": "Period",
+          "type": "symbol",
+          "labels": { "tl": ">", "bl": ".", "br": "Ю"}
+        },
+        {
+          "code": "Slash",
+          "type": "symbol",
+          "labels": { "tl": "?", "bl": "/", "tl": ",", "br": "."}
+        },
+        {
+          "code": "ShiftRight",
+          "type": "special",
+          "labels": {
+              "tl": "Shift"
+          }
+        }
+      ],
+      [
+        {
+          "code": "ControlLeft",
+          "type": "special",
+          "labels": {
+            "tl": "Ctrl"
+          }
+        },
+        {
+          "code": "MetaLeft",
+          "type": "special",
+          "labels": {
+            "tl": "Win"
+          }
+        },
+        {
+          "code": "AltLeft",
+          "type": "special",
+          "labels": {
+            "tl": "Alt"
+          }
+        },
+        {
+          "code": "Space",
+          "type": "special",
+          "labels": {
+            "tl": "Space"
+          }
+        },
+        {
+          "code": "AltRight",
+          "type": "special",
+          "labels": {
+            "tl": "Alt"
+          }
+        },
+        {
+          "code": "MetaRight",
+          "type": "special",
+          "labels": {
+            "tl": "Win"
+          }
+        },
+        {
+          "code": "ControlRight",
+          "type": "special",
+          "labels": {
           "tl": "Ctrl"
+          }
         }
-      },
-      {
-        "code": "Space",
-        "type": "special",
-        "labels": {
-          "tl": "Space"
-        }
-      },
-      {
-        "code": "ControlRight",
-        "type": "special",
-        "labels": {
-          "tl": "Ctrl"
-        }
-      }
       ]
     ],
 
 
     "functional": [
+      [],
       [  
-      {
-        "code": "PrintScreen",
-        "type": "special",
-        "labels": {
-          "tl": "PrtSc"
+        {
+          "code": "PrintScreen",
+          "type": "special",
+          "labels": {
+            "tl": "PrtSc"
+          }
+        },
+        {
+          "code": "ScrollLock",
+          "type": "special",
+          "labels": {
+            "tl": "ScrLk"
+          }
+        },
+        {
+          "code": "Pause",
+          "type": "special",
+          "labels": {
+            "tl": "Pause"
+          }
         }
-      },
-      {
-        "code": "ScrollLock",
-        "type": "special",
-        "labels": {
-          "tl": "ScrLk"
-        }
-      },
-      {
-        "code": "Pause",
-        "type": "special",
-        "labels": {
-          "tl": "Pause"
-        }
-      }
       ],
       [
       {
@@ -375,11 +547,7 @@
           "type": "special",
           "labels": { "tl": "PgDn"}
       }
-      ]
-    ],
-
-
-    "arrows": [
+      ],
       [
       {
         "code": "ArrowUp",
@@ -421,7 +589,8 @@
           "code": "NumLock",
           "type": "special",
           "labels": {
-            "tl": "NumLk"
+            "tl": "Num",
+            "bl": "Lock"
           }
         },
         {
@@ -505,30 +674,37 @@
       }
       ],
       [
-      {
-        "code": "Numpad1",
-        "type": "special",
-        "labels": {
-          "tl": "1",
-          "bl": "End"
+        {
+          "code": "Numpad1",
+          "type": "special",
+          "labels": {
+            "tl": "1",
+            "bl": "End"
+          }
+        },
+        {
+          "code": "Numpad2",
+          "type": "special",
+          "labels": {
+            "tl": "2",
+            "bl": "↓"
+          }
+        },
+        {
+          "code": "Numpad3",
+          "type": "special",
+          "labels": {
+            "tl": "3",
+            "bl": "PgDn"
+          }
+        },
+        {
+          "code": "NumpadEnter",
+          "type": "special",
+          "labels": {
+            "tl": "Enter"
+          }
         }
-      },
-      {
-        "code": "Numpad2",
-        "type": "special",
-        "labels": {
-          "tl": "2",
-          "bl": "↓"
-        }
-      },
-      {
-        "code": "Numpad3",
-        "type": "special",
-        "labels": {
-          "tl": "3",
-          "bl": "PgDn"
-        }
-      }
       ],
       [
       {

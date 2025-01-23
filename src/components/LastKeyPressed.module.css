@@ -1,0 +1,9 @@
+.lastKeyPressed {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lastKeyPressed h2 {
+    font-size: 24px;
+    color: #666;
+}
